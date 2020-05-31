@@ -22,5 +22,5 @@ bot.hears('hi', ctx => {
 bot.hears(/buy/i, ctx => ctx.reply('Buy-buy!'))
 bot.on('sticker', ctx => ctx.reply('👍'))
 
-// Now use hello as your lambda function and done!
+// Now use handler as your lambda function and done!
 export const handler = updateHandler
