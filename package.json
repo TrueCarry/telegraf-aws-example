@@ -1,0 +1,18 @@
+{
+  "name": "telegraf-aws-example",
+  "version": "1.0.0",
+  "description": "Example telegraf bot for AWS Lambda",
+  "main": "src/index.js",
+  "author": "TrueCarry",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.js --target node --bundle-node-modules"
+  },
+  "dependencies": {
+    "telegraf": "^3.38.0",
+    "telegraf-aws": "^1.0.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
